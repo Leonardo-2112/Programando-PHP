@@ -22,3 +22,7 @@ $frutas = array("Maçã", "Laranja", "Banana");
 
 // array_push($frutas, "Tomate");   //Adiciona valor no final do array
 // print_r($frutas);
+
+echo "<pre>"; //Formata a exibição do array
+print_r($frutas);
+echo "<pre>";
