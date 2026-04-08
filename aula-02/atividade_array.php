@@ -1,3 +1,6 @@
 <?php
 $alunos = ["Guilherme", "Gabriel", "Vinicius.S", "Kauã", "Ryan", "Guilherme.S", "Diogo", "Vinicios.M", "Júlia", "Nicolas", "Guilherme.F"];
-print_r($alunos[0]);
+array_unshift($alunos, "Leonardo");
+echo "<pre>"; //Formata a exibição do array
+print_r($alunos);
+echo "<pre>";
