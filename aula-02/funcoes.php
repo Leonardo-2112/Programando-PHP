@@ -40,12 +40,16 @@
 
 
 // VERIFICA SE A VARIAVEL É DO TIPO STRING
-$caractere = "Leonardo";
+// $caractere = "Leonardo";
 
-if (is_string($caractere)){
-    echo("O valor é string");
-}
-else{
-    echo("O valor não é string");
-}
+// if (is_string($caractere)){
+//     echo("O valor é string");
+// }
+// else{
+//     echo("O valor não é string");
+// }
 
+$valor1 = 10;
+$valor2 = "10";
+
+echo ($valor1 == $valor2);
